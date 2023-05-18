@@ -44,8 +44,8 @@ export default function Movies()
           {movies && movies.map((movie)=>(
             <div key={v4()}className='movie_box'>
             <li>
-              {movie.video && <img className='movie_backdrop' src={`${movie.backdrop_path}`} alt='Image not found'></img>}
-              {!movie.video && <img className='movie_backdrop' src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}alt='Image not found' ></img>}<br/><br/>
+              {movie.video && <img className='movie_backdrop' src={`${movie.backdrop_path}`} alt='not found'></img>}
+              {!movie.video && <img className='movie_backdrop' src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}alt='not found' ></img>}<br/><br/>
               <h3 className='head'>Title : </h3><h3 className='text'>{movie.original_title}</h3><br/><hr/><br/>
               <div className='size_overview'><h3 className='head'>Overview : </h3><h3 className='text'>{movie.overview}</h3></div><br/><hr/><br/>
               <h3 className='head'>Rating : </h3><h3 className='text'>{movie.vote_average}</h3><br/><hr/><br/>
