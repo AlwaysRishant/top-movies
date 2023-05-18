@@ -1,0 +1,57 @@
+.addmovie-box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background-color: rgba(189,189,189,0.9);
+}
+.addmovie-form{
+    border-radius: 1%;
+    border:3px solid white;
+    position: fixed;
+    background-color:darkslategray;
+    margin-left: 23%;
+    margin-top: 2%;
+    width: 55%;
+    height: 60%;
+    overflow: auto;
+}
+.input{
+    font-size:larger;
+}
+span{
+    font-size:1.8em;
+}
+.input1{
+    margin-left: 2.6em;
+}
+.input2{
+    margin-left: 5.2em;
+}
+.input3{
+    margin-left: .6em;
+    width: 60%;
+}
+.input4{
+    margin-left: 2.3em;
+}
+.input5{
+    margin-left: 5.3em;
+    height: 2em;
+}
+.button{
+    position: relative;
+    right: 46%;
+    top: 1em;
+    width: 40%;
+    height: 10%;
+    font-size:x-large;
+    color: black;
+    background-color: cornsilk;
+}
+h3{
+    font-size: 3em;
+    text-align: center;
+    color:whitesmoke;
+}
